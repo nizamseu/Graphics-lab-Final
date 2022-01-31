@@ -471,14 +471,14 @@ void display(){
 
 
 
-    glColor3f(1,0,1);
+    glColor3f(0,1,1);
     drawSquare(85);
 
     glColor3f(1,0,1);
     drawCircle(125,80);
 
 
-    glColor3f(0,1,1);
+    glColor3f(1,0,0);
     glRotatef(90.0, 0.0, 0.0, 1.0);
     glTranslatef(-5,0,0);
     drawSphere(90,3,1);
